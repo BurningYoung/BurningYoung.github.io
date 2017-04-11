@@ -9,3 +9,7 @@
 .about .btn {
     margin-bottom: 5px;
 }
+
+ul{
+	list-style-type :square;
+}
