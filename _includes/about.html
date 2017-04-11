@@ -16,7 +16,20 @@
 
         <h2>技能栈</h2>
 
-        {% if site.skill_software_keywords %}
+        {% for list in site.skill_list %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{ list.title }}</h3>
+            </div>
+            <div class="panel-body">
+                {% for name in list.list %}
+                <button class="btn btn-default" type="button">{{ name }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <!-- {% if site.skill_software_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">Software Engineer Keywords</h3>
@@ -66,7 +79,7 @@
                 {% endfor %}
             </div>
         </div>
-        {% endif %}
+        {% endif %} -->
 
     </div>
 
