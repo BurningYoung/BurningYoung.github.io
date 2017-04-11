@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 张然的博客 # ex. I m Chuan
+title: 燃情小站 # ex. I m Chuan
 name: ZhangRyze # ex. DONGChuan
 email: zhangryze@gmail.com
 tel: 15620920109
 location: 天津 # ex. Nice, France
 company: 爱普海德（天津）科技有限公司
-company_url: www.armyhorse.com
+company_url: www.appheader.com
 github_url: https://github.com/BurningYoung # ex. https://github.com/DONGChuan
 description: description_of_your_web_site
 favicon: blog_icon.jpg # Image must be in assets/images
@@ -21,7 +21,8 @@ repository: BurningYoung/BurningYoung.github.io/ # ex. DONGChuan/DONGChuan.githu
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: https://BurningYoung.github.io
+# url: https://BurningYoung.github.io
+url: http://localhost:4000
 
 ## Gem
 gems:
@@ -58,11 +59,11 @@ paginate_path: 'page:num'
 navs:
   -
     href: /
-    label: Home
+    label: 首页
 
   -
     href: /open-source
-    label: Open-Source
+    label: 开源库
 
   -
     href: /blog
@@ -70,7 +71,7 @@ navs:
 
   -
     href: /bookmark
-    label: Bookmark
+    label: 推荐书签
 
   -
     href: /about
@@ -83,10 +84,22 @@ side_bar_repo_limit: 5 # Number of repos to show
 analytics :
   provider : google
   google :
-      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+      tracking_id : 'UA-97198147-1'  # ex. UA-72165600-X
 
 
 # For about.html. Fell free to create your own!
+##===========================================##
+# Curriculum vitae                            #
+##===========================================##
+# own desc
+own_desc: [
+    '大学多次获得奖学金、全国(省\市)性大赛等荣誉(可提供证书)。',
+    '大学期间自学UI设计以及前端开发，大四便在现公司实习web前端，毕业后转 正，工作至今。',
+    '自学、解决问题能力较强，独立完成项目若干，遇到的困难不少，自己查资料、学新知识都得到解决。',
+    '注重同事间交流，注重用户体验，能够主动给与Leader及时反馈问题。',
+    '轻度代码洁癖，阅读英文文档、翻墙无障碍。',
+    '动手能力较强，遇到新奇、好玩的东西喜欢研究工作原理。'
+]
 # skill List
 skill_list: [
     '熟练掌握 HTML、CSS、javascript，掌握HTML5、CSS3，熟悉Less',
@@ -103,7 +116,4 @@ skill_list: [
     '熟悉Tomcat，有过Apache Tomcat调优尝试',
     '有阿里云ECS、微信应用开发和开放平台使用经验，有自己的微信公众账号'
 ]
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+
