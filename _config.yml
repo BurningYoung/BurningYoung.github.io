@@ -89,13 +89,18 @@ analytics :
 # For about.html. Fell free to create your own!
 # skill List
 skill_list: [
-    {
-        'title':'jquery',
-        'list':[Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-    },{
-        'title':'javaScript',
-        'list':[Java12, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-    }
+    '熟练掌握 HTML、CSS、javascript，掌握HTML5、CSS3，熟悉Less',
+    '熟练掌握 jQuery库，用过swiper、bigcolorpicker、dropzone等jQuery插件',
+    '熟练掌握 Bootstrap、JqueryUI，了解MUI等UI框架',
+    '熟练掌握 Vue.js，了解Vue-router、vue-devtools、vue-cli等插件和工具',
+    '熟练掌握 localstorage、sessionStorage、Cookie等本地储存',
+    '熟练掌握 HTTP协议、AJAX技术，了解跨域技术',
+    '熟练使用 HBuilder、WebStorm、Sublime Text等IDE工具，了解eclipse',
+    '熟练使用 photoshop、illustrator、Axure RP等设计软件; 熟悉SVN、Git',
+    '了解Hybrid App、WebApp开发，有Hybrid App、WebApp开发经验',
+    '了解NodeJS，有基于NodeJS开发的经验',
+    '熟悉Tomcat，有过Apache Tomcat调优尝试',
+    '有阿里云ECS、微信应用开发和开放平台使用经验，有自己的微信公众账号'
 ]
 skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
