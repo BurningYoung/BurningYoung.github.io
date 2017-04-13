@@ -10,7 +10,10 @@ title: 燃情小站 # ex. I m Chuan
 name: ZhangRyze # ex. DONGChuan
 email: zhangryze@gmail.com
 tel: 15620920109
+label : 不轻狂，枉年少。
+greet: Welcome to my Blog
 location: 天津 # ex. Nice, France
+location_map: https://yuntu.amap.com/share/FbiMVj
 company: 爱普海德（天津）科技有限公司
 company_url: www.appheader.com
 github_url: https://github.com/BurningYoung # ex. https://github.com/DONGChuan
@@ -56,26 +59,28 @@ paginate: 10
 paginate_path: 'page:num'
 
 # Navigation. If you do not like these modules, just remove them :D
-navs:
-  -
-    href: /
-    label: 首页
-
-  -
-    href: /open-source
-    label: 开源库
-
-  -
-    href: /blog
-    label: Blog
-
-  -
-    href: /bookmark
-    label: 推荐书签
-
-  -
-    href: /about
-    label: About
+navs: [{
+        'href' : '/',
+        'label': '首页',
+        'type' : 'home'
+    },{
+        'href' : '/open-source',
+        'label': '开源库',
+        'type' : 'open-source'
+    },{
+        'href' : '/blog',
+        'label': 'Blog',
+        'type' : 'blog'
+    },{
+        'href' : '/bookmark',
+        'label': '推荐书签',
+        'type' : 'Bookmark'
+    },{
+        'href' : '/about',
+        'label': 'About',
+        'type' : 'about'
+    }
+]
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show

@@ -1,12 +1,12 @@
 <header class="site-header">
     <div class="container">
-        <a id="site-header-brand" href="/" title="{{ site.name }}">
-            <span class="octicon octicon-mark-github"></span> {{ site.name }}
+        <a id="site-header-brand" class="site-header-icon" href="/">
+            <i class="iconfont ic-header-1"></i>
         </a>
-        <nav class="site-header-nav" role="navigation">
+        <nav class="site-header-nav {% if page.menu == 'home' %} header-nav-home {% endif %}" role="navigation">
             {% for nav in site.navs %}
             <a href="{{ nav.href }}"
-               class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center"
+               class="{% if page.menu == nav.type %} selected {% endif %} site-header-nav-item hvr-underline-from-center"
                target="{{ nav.target | default: _self }}"
                title="{{ nav.label }}">
                 {{ nav.label }}
