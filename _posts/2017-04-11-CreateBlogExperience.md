@@ -2,7 +2,7 @@
 layout: post
 title:  "第一次开博客"
 date:   2017-04-11 16:40:40 +8
-categories: jekyll update
+categories: first post
 ---
 
 ## 尝试一个新的东西，讲讲心路历程
